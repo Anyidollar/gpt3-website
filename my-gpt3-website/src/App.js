@@ -8,6 +8,7 @@ import {
   Possibility,
   WhatGPT3,
 } from "./containers";
+import "./App.css";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Blog />
       <Possibility />
       <Footer />
+      <CTA />
     </div>
   );
 };
